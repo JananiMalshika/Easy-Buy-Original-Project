@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  overflow: auto;
+}
+.review-main-container{
+    width: 90%;
+    min-height:50px;
+    margin:auto;
+    margin-bottom: 5px;
+    padding:10px;
+    background-color: white;
+    border-bottom: 2px solid #e1e1e1;
+}
+.review-header-wrapper{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.review-body-wrapper{
+    width: 100%;
+}
+.reviewer-name{
+    font-size:13px;
+    font-weight:500;
+    float:left
+}
+.reviewer-riview{
+    float:left;
+    font-size: 13px;
+}
+.review-date{
+    float:right;
+    font-size: 12px;
+    margin-top: 10px;
+     
+}

@@ -1,0 +1,28 @@
+.site-body-header {
+  width: 100%;
+  height: 160px;
+  /* background-color: #f3d5b5; */
+  background-color:#cc8b86
+}
+ .site-body-header-details-wrapper {
+  width: fit-content;
+  padding-top: 70px;
+  float: left;
+  display: flex;
+  margin-left: 30px;
+  gap:10px;
+  color:rgb(0, 0, 0)
+}
+.site-body-header-icon-wrapper {
+  width: fit-content;
+  padding-top: 75px;
+  float: right;
+  margin-right: 20px;
+}
+.site-body-header-icon {
+  margin-right: 15px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  cursor: pointer;
+}
+ 

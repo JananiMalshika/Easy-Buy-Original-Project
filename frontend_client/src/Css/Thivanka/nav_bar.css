@@ -1,0 +1,49 @@
+.site-nav-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  /* background-color:#a47148; */
+  background-color: #7d4f50;
+  position:fixed;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.378);
+  z-index: 2
+  /* https://coolors.co/palette/e3f2fd-bbdefb-90caf9-64b5f6-42a5f5-2196f3-1e88e5-1976d2-1565c0-0d47a1 */
+}
+/* .site-nav-logo-wrapper {
+  width: 18%;
+}
+.site-nav-profile{
+   width: 18%;
+   padding-top: 9px;
+}
+.site-nav-profile-icon{
+  float: right;
+  margin-right: 35px;
+} */
+.site-nav-logo-wrapper{
+  width: 20%; 
+   /* background-color:aqua; */
+}
+.site-nav-links-wrapper {
+  width: 60%; 
+  display:flex;
+  justify-content: center;
+  gap:40px;
+}
+.site-nav-link{
+  text-decoration: none;
+}
+
+.site-nav-links {
+  width: fit-content;
+  margin-top:20px;
+  padding-bottom: 4px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color:#ffffff
+}
+.active div{
+ 
+  border-bottom: 1px solid white;
+}

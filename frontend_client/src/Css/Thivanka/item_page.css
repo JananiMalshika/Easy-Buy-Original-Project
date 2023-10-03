@@ -1,0 +1,141 @@
+.clearfix {
+  overflow: auto;
+}
+.items-category-container {
+  width: 20%;
+}
+.items-category {
+  width: 100%;
+  background-color: #ffffff;
+ 
+  text-align: start;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.list-category-items {
+  display: flex;
+  cursor: pointer;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+.list-category-items:hover {
+  background-color: #ffedd8;
+  padding-left: 17px;
+}
+
+.item-details-main-container {
+  width: 90%;
+  display: flex;
+  margin-top: 50px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+.item-image-wrapper {
+  width: 50%;
+  /* background-color: rgb(160, 182, 0); */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 10px;
+  text-align: center;
+}
+.item-detail-wrapper {
+  width: 50%;
+  padding-top: 35px;
+  padding-left: 10px;
+}
+.item-detail-header {
+  width: 100%;
+}
+.item-detail-body {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+}
+.item-detail-question {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 500;
+}
+.item-detail-answer {
+  width: 40%;
+  font-size: 14px;
+  font-weight: 600;
+}
+.item-cart-container {
+  width: 70%;
+  height: 35px;
+  margin-top: 13px;
+  display: flex;
+}
+.item-cart-count {
+  width: 50%;
+  display: flex;
+  padding-top: 6px;
+  justify-content: center;
+}
+.item-cart-action-btn {
+  /* border: 1px solid #0d48a13d; */
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000000;
+}
+.item-cart-add-btn {
+  width: 65%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d9b79b;
+  background-color: #fbb86a;
+  margin-top: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cart-add-btn-icon {
+  margin-top: 1px;
+}
+
+.item-cart-add-btn:hover {
+  background-color: #f89c33;
+  color: white;
+}
+
+.more-item-details-main-container {
+  width: 90%;
+  margin-bottom: 30px;
+  margin: auto;
+  background-color:#ffffff
+}
+.more-item-details-header-wrapper {
+  width: 90%;
+  height: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 3px;
+}
+.more-item-details-header {
+  width: 30%;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+}
+.active-header {
+  margin-bottom: -5px;
+  font-weight: 700;
+  border-bottom: 3px solid #A47148;
+}
+.more-item-details-body-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  min-height: 200px;
+  /* background-color:white */
+}
+.more-item-details-body {
+  font-size: 13px;
+}

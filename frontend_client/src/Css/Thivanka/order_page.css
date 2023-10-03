@@ -1,0 +1,56 @@
+.client-review-component-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 2%;
+}
+.client-side-menu-container {
+  width: 19%;
+  max-height:240px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+.client-side-menu-link {
+  width: 95%;
+  height: 30px;
+  padding-top: 8px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.client-side-menu-link:hover {
+  border-left: 2px solid #ffe0be;
+  background-color: #f5f5f5;
+}
+.active div {
+  border-left: 2px solid #f08109;
+  background-color: #f5f5f5;
+  font-weight:500
+}
+
+.client-side-menu-item-container {
+  width: 78%;
+}
+.client-orders-filter-wrapper {
+  width: 100%;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.order-filter-inputs {
+  width: 25%;
+  height: 30px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+.client-orders-wrapper {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* background-color: white; */
+}
